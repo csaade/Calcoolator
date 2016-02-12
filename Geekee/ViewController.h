@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  Coolculator
+//  Calcoolator
 //
 //  Created by Cyril Saade on 2/4/16.
 //  Copyright © 2016 Cyril Saade. All rights reserved.
