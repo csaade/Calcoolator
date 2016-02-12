@@ -26,7 +26,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1dA-av-FpC">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="225"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R5c-lt-9dt" userLabel="ResultField">
+                                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R5c-lt-9dt" userLabel="ResultField" customClass="ResultLabel">
                                                         <rect key="frame" x="0.0" y="0.0" width="600" height="175"/>
                                                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
@@ -300,7 +300,7 @@
                     </view>
                     <connections>
                         <outlet property="InputField" destination="XCk-gf-JaI" id="nEH-N7-7KT"/>
-                        <outlet property="ResultField" destination="R5c-lt-9dt" id="AtV-Be-PGN"/>
+                        <outlet property="ResultField" destination="R5c-lt-9dt" id="So0-EM-lQe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

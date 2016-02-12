@@ -22,6 +22,10 @@
     ResultField.text = @"0";
     
     self.ToEvaluate = [[NSString alloc]init];
+    
+    // Setting up the gesture recognizer for the result label
+    UIGestureRecognizer *longPressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
+    [ResultField addGestureRecognizer:longPressGesture];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -166,7 +170,15 @@
             break;
     }
     
+}
+
+- (void)handleLongPress:(UIGestureRecognizer *)recognizer  {
     
-    
+    if (recognizer.state == UIGestureRecognizerStateRecognized) {
+        [recognizer.view becomeFirstResponder];
+        UIMenuController *menuController = [UIMenuController sharedMenuController];
+        [menuController setTargetRect:recognizer.view.frame inView:recognizer.view.superview];
+        [menuController setMenuVisible:YES animated:YES];
+    }
 }
 @end

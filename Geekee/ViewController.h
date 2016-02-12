@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "stackForExpression.h"
+#import "ResultLabel.h"
 
 @interface ViewController : UIViewController
 
@@ -17,7 +18,7 @@
 -(NSString*)calculate:(NSString*)EvalThis;
 
 @property (strong, nonatomic) IBOutlet UILabel *InputField;
-@property (strong, nonatomic) IBOutlet UILabel *ResultField;
+@property (strong, nonatomic) IBOutlet ResultLabel *ResultField;
 @property(strong,nonatomic) NSString* ToEvaluate;
 @property(nonatomic, assign) BOOL isDecimal;
 

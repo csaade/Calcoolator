@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5621E7441C6D9D84001EACEE /* ResultLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5621E7431C6D9D84001EACEE /* ResultLabel.m */; };
 		564B4F2D1C63FF5D00C15999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B4F2C1C63FF5D00C15999 /* main.m */; };
 		564B4F301C63FF5D00C15999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B4F2F1C63FF5D00C15999 /* AppDelegate.m */; };
 		564B4F331C63FF5D00C15999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B4F321C63FF5D00C15999 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5621E7421C6D9D84001EACEE /* ResultLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultLabel.h; sourceTree = "<group>"; };
+		5621E7431C6D9D84001EACEE /* ResultLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultLabel.m; sourceTree = "<group>"; };
 		564B4F281C63FF5D00C15999 /* Geekee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geekee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564B4F2C1C63FF5D00C15999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		564B4F2E1C63FF5D00C15999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				564B4F311C63FF5D00C15999 /* ViewController.h */,
 				564B4F321C63FF5D00C15999 /* ViewController.m */,
 				564B4F341C63FF5D00C15999 /* Main.storyboard */,
+				5621E7421C6D9D84001EACEE /* ResultLabel.h */,
+				5621E7431C6D9D84001EACEE /* ResultLabel.m */,
 				564B4F371C63FF5D00C15999 /* Assets.xcassets */,
 				564B4F391C63FF5D00C15999 /* LaunchScreen.storyboard */,
 				564B4F3C1C63FF5D00C15999 /* Info.plist */,
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5621E7441C6D9D84001EACEE /* ResultLabel.m in Sources */,
 				564EDC8E1C6D465800F424FB /* stackForExpression.m in Sources */,
 				564B4F331C63FF5D00C15999 /* ViewController.m in Sources */,
 				564B4F301C63FF5D00C15999 /* AppDelegate.m in Sources */,
