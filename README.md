@@ -15,7 +15,7 @@ The **supported set of operations** are the following:
 
 Additionally, Calcoolator **takes into account the order of operation**. The user can therefore input a complex expression using parentheses and copy the result to its clipboard.
 
-Finally, before returning a result, our alogirthm checks whether the the **parentheses are balanced**.
+Finally, before returning a result, our algorithm checks whether the the **parentheses are balanced**.
 
 ## UI Design and User Experience
 
