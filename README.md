@@ -1,6 +1,6 @@
 # Calcoolator
 
-An iOS app made for the Zappos Internship interviewing process.
+An easy-to-use handheld calculator for iOS.
 
 ## Motivation and features
 
